@@ -1,0 +1,59 @@
+@use '../mixins';
+@use '../media';
+
+.hero {
+    row-gap: var(--section-padding-y);
+    display: flex;
+    flex-direction: column;
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        row-gap: 80px;
+        width: 60%;
+
+        padding-top: 100px;
+
+        @include media.mobile {
+            width: 100%;
+            row-gap: 40px;
+        }
+    }
+
+    &__buttons {
+    display: flex;
+    gap: 30px;
+
+    @include media.mobile {
+        flex-direction: column;
+    }
+    }
+
+    &__button:last-child {
+    border-color: var(--color-gray-alt);
+    background-color: var(--color-white);
+    color: var(--color-dark);
+
+    @include media.hover {
+        background-color: var(--color-gray-alt);
+        border-color: var(--color-white);
+        color: var(--color-white);
+        }
+    }
+
+    &__title {
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+    }
+
+.description {
+
+    &-head {
+        font-weight: 700;
+    }
+
+    &-item {
+        padding-left: 10px;
+    }
+}

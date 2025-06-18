@@ -1,0 +1,35 @@
+@use 'normalize';
+@use 'fonts';
+@use 'mixins';
+@use 'media';
+@use 'variables';
+@use 'globals';
+@use 'utils';
+
+@use 'blocks/button';
+@use 'blocks/grid';
+@use 'blocks/burger-button';
+@use 'blocks/header';
+@use 'blocks/cross-button';
+@use 'blocks/mobile-overlay';
+@use 'blocks/section';
+@use 'blocks/hero';
+@use 'blocks/services';
+@use 'blocks/steps';
+@use 'blocks/tools';
+@use 'blocks/footer';
+
+
+.background {
+    background-image: url(/images/bg_img_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background:last-child {
+    background-image: url(/images/bg_img_2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

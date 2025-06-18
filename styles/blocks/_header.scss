@@ -1,0 +1,67 @@
+@use '../media';
+
+.header {
+    padding: 30px 0;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+
+    background-color: var(--color-dark);
+    opacity: 0.9;
+
+    @include media.desktop {
+        padding: 15px 0;
+    }
+
+    @include media.mobile {
+        padding: 10px 0;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 60px;
+    }
+
+    &__logo {
+        @include media.tablet {
+            max-width: 200px;
+        }
+
+        @include media.mobile {
+            max-width: 144px;
+        }
+    }
+
+    &__menu {
+        margin-left: auto;
+        font-size: 13px;
+
+        &-list {
+            display: flex;
+            align-items: center;
+            column-gap: 60px;
+            color: var(--color-white);
+            text-transform: uppercase;
+
+            @include media.desktop {
+                column-gap: 40px;
+            }
+        }
+
+        &-link {
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            height: 40px;
+
+            &:hover{
+                color: var(--color-accent);
+            }
+        }
+    }
+}

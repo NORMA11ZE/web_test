@@ -1,0 +1,21 @@
+@use '../mixins';
+@use '../media';
+
+.burger-button {
+    @include mixins.reset-button;
+    @include mixins.square(48px);
+
+    position: relative;
+
+    &::after {
+        @include mixins.abs-center;
+
+        content: '';
+        width: 50%;
+        height: 2px;
+        color: var(--color-white);
+        border-radius: 5px;
+        box-shadow: 0 -8px, 0 8px;
+        background-color: var(--color-white);
+    }
+}

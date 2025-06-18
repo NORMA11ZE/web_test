@@ -1,0 +1,9 @@
+@use '../mixins';
+@use '../media';
+
+.section {
+    padding-block: var(--section-padding-y);
+}
+
+
+
