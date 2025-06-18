@@ -289,6 +289,20 @@ h4 {
   font-size: clamp(18px, 1.0416666667vw, 20px);
 }
 
+.background {
+    background-image: url(/images/bg_img_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background:last-child {
+    background-image: url(/images/bg_img_2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .container {
   max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
   margin-inline: auto;
