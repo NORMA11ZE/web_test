@@ -19,3 +19,17 @@
 @use 'blocks/tools';
 @use 'blocks/footer';
 
+
+.background {
+    background-image: url(/web_test/images/bg_img_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background:last-child {
+    background-image: url(/web_test/images/bg_img_2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

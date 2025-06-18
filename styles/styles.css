@@ -289,20 +289,6 @@ h4 {
   font-size: clamp(18px, 1.0416666667vw, 20px);
 }
 
-.background {
-    background-image: url(/web_test/images/bg_img_1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.background:last-child {
-    background-image: url(/web_test/images/bg_img_2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 .container {
   max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
   margin-inline: auto;
@@ -317,8 +303,7 @@ h4 {
   border: 0 !important;
   padding: 0 !important;
   white-space: nowrap !important;
-  -webkit-clip-path: inset(100%) !important;
-          clip-path: inset(100%) !important;
+  clip-path: inset(100%) !important;
   clip: rect(0 0 0 0) !important;
   overflow: hidden !important;
 }
@@ -450,8 +435,7 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  -moz-column-gap: 60px;
-       column-gap: 60px;
+  column-gap: 60px;
 }
 @media (max-width: 1023px) {
   .header__logo {
@@ -470,15 +454,13 @@ h4 {
 .header__menu-list {
   display: flex;
   align-items: center;
-  -moz-column-gap: 60px;
-       column-gap: 60px;
+  column-gap: 60px;
   color: var(--color-white);
   text-transform: uppercase;
 }
 @media (max-width: 1280px) {
   .header__menu-list {
-    -moz-column-gap: 40px;
-         column-gap: 40px;
+    column-gap: 40px;
   }
 }
 .header__menu-link {
@@ -672,7 +654,6 @@ h4 {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: -moz-min-content;
   width: min-content;
 }
 .services__steps .steps__item .icon-container {
@@ -809,14 +790,8 @@ h4 {
   border: var(--border);
   border-radius: var(--border-radius-field);
 }
-.services__item .input:focus::-moz-placeholder {
-  color: var(--color-white);
-}
 .services__item .input:focus::placeholder {
   color: var(--color-white);
-}
-.services__item .input::-moz-placeholder {
-  color: var(--color-dark);
 }
 .services__item .input::placeholder {
   color: var(--color-dark);
@@ -888,8 +863,7 @@ h4 {
 }
 .progress__scale[type=range] {
   -webkit-appearance: none;
-  -moz-appearance: none;
-       appearance: none;
+  appearance: none;
   width: 100%;
   height: 6px;
   border-radius: 5px;
@@ -963,15 +937,17 @@ h4 {
 }
 
 .background {
-  background-image: url(/images/bg_img_1.jpg);
+  background-image: url(/web_test/images/bg_img_1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .background:last-child {
-  background-image: url(/images/bg_img_2.jpg);
+  background-image: url(/web_test/images/bg_img_2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */
