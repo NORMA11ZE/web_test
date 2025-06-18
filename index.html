@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>LoremIpsum.Net</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__inner container">
+            <a href="/" class="header__logo logo">
+                <img
+                    src="./images/logo.svg"
+                    alt="LoremIpsum.Net"
+                    class="logo__image"
+                    width="247" height="35" loading="lazy"
+                />
+            </a>
+            <nav class="header__menu hidden-mobile">
+                <ul class="header__menu-list">
+                    <li class="header__menu-item">
+                        <a href="" class="header__menu-link">Бизнес</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="" class="header__menu-link">О нас</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="" class="header__menu-link">Цены</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="" class="header__menu-link">Оформить заказ</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="header__burger-button burger-button visible-mobile" type="button" onclick="mobileOverlay.showModal()">
+                <span class="visually-hidden">Open navigation menu</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="content">
+        <div class="background">
+        <section class="section container">
+            <div class="section__body">
+                <div class="hero">
+                    <div class="hero__body">
+                        <h1 class="hero__title">Lorem ipsum dolor sit amet
+consectetur adipiscing</h1>
+                        <div class="hero__description">
+                            <dl class="description-list">
+                                <dt class="description-head">
+                                    At vero eos et accusamus et iusto odio dignissimos ducimus!
+                                </dt>
+                                <dd class="description-item">
+                                    - Totam rem aperiam eaque ipsa
+                                </dd>
+                                <dd class="description-item">
+                                    - Sit voluptatem accusantium doloremque laudantium
+                                </dd>
+                                <dd class="description-item">
+                                    - Sed ut perspiciatis, unde omnis iste natus error
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="hero__buttons">
+                            <button class="hero__button button">заказать</button>
+                            <button class="hero__button button">подробнее</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+        <div class="background">
+        <section class="section container">
+                <div class="section__body">
+                    <div class="services">
+                        <div class="services__body">
+                            <div class="services__title">
+                                Оформление  Заказа
+                            </div>
+                            <div class="services__description">
+                                Перед заполнением формы ознакомьтесь с нашей схемой работы!
+                            </div>
+                            <div class="services__steps">
+
+                                <div class="steps">
+                                    <div class="steps__item">
+                                        <div class="icon-container">
+                                            <img src="./images/icons/img_1.svg" alt="Иконка 1" class="icon">
+                                        </div>
+                                            <p class="description">Lorem ipsum dolor sit amet</p>
+                                    </div>
+                                    <div class="steps__item">
+                                        <div class="icon-container">
+                                            <img src="./images/icons/img_2.svg" alt="Иконка 2" class="icon">
+                                        </div>
+                                            <p class="description">Consectetur adipiscing elit</p>
+                                        </div>
+                                    <div class="steps__item">
+                                        <div class="icon-container">
+                                            <img src="./images/icons/img_3.svg" alt="Иконка 3" class="icon">
+                                        </div>
+                                            <p class="description">Sed do eiusmod tempor</p>
+                                    </div>
+                                    <div class="steps__item">
+                                        <div class="icon-container">
+                                            <img src="./images/icons/img_4.svg" alt="Иконка 4" class="icon">
+                                        </div>
+                                            <p class="description">Esse cillum dolore eu fugiat</p>
+                                    </div>
+                                    <div class="steps__item">
+                                        <div class="icon-container">
+                                            <img src="./images/icons/img_5.svg" alt="Иконка 5" class="icon">
+                                        </div>
+                                            <p class="description">Excepteur sint occaecat cupidatat non proident</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="services__tools grid grid--3">
+                                <div class="services__item">
+                                    <select name="Выберите тип системы" id="" class="select__list">
+                                        <option value="0" class="select__item">Выберите тип системы</option>
+                                        <option value="1" class="select__item">Sed ut perspiciatis</option>
+                                        <option value="2" class="select__item">Nemo enim ipsam</option>
+                                        <option value="3" class="select__item">Et harum quidem</option>
+                                        <option value="4" class="select__item">Temporibus autem</option>
+                                        <option value="5" class="select__item">Itaque earum rerum</option>
+                                    </select>
+                                </div>
+                                <div class="services__item">
+                                    <input type="email" name="Ваш e-mail" class="input" placeholder="Ваш e-mail">
+                                </div>
+                                <div class="services__item">
+                                    <input type="text" name="Ваше имя" class="input" placeholder="Ваше имя">
+                                </div>
+                                <div class="services__item">
+
+                                    <div class="progress">
+                                        <div class="progress__text">
+                                        <p>Sed ut perspiciatis, unde omnis iste natus</p>
+                                        <span class="progress__percentage">75 %</span>
+                                        </div>
+                                        <div class="progress__bar">
+                                            <input type="range" id="range" min="0" max="100" value="75" class="progress__scale">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="services__item item-wide">
+                                    <div class="file">
+                                    <label for="file-upload" class="label"><img src="./images/icons/file.svg" alt="" class="file-img"/> ПРИКРЕПИТЬ ФАЙЛ</label>
+                                    <input id="file-upload" type="file" name="Прикрепить файл" class="input" placeholder="ПРИКРЕПИТЬ ФАЙЛ">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services__button button">
+                                Отправить
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__inner container">
+
+            <div class="footer__copyright">
+                <div class="copyright-item">
+                    © 2018 «LoremIpsum.net» Все права защищены.
+                </div>
+            </div>
+
+            <div class="footer__line"></div>
+
+            <div class="footer__payments">
+                <div class="payments-item">
+                    <a href="" class="payments-link">
+                        <img src="./images/icons/payments/pay_1.svg" alt="" class="payments-img"/>
+                        <spat class="payments-txt">
+                            Qiwi wallet
+                        </spat>
+                    </a>
+                </div>
+                <div class="payments-item">
+                    <a href="" class="payments-link">
+                        <img src="./images/icons/payments/pay_2.svg" alt="" class="payments-img"/>
+                        <spat class="payments-txt">
+                            Yandex Money
+                        </spat>
+                    </a>
+                </div>
+                <div class="payments-item">
+                    <a href="" class="payments-link">
+                        <img src="./images/icons/payments/pay_3.svg" alt="" class="payments-img"/>
+                        <spat class="payments-txt">
+                            Web Money
+                        </spat>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer__line"></div>
+
+            <div class="footer__socials">
+                <div class="socials-item">
+                    <a href="mailto:info@ipsum228.com" class="socials-link">
+                        <img src="./images/icons/social/email.svg" alt="" class="social-img"/>
+                        <span class="socials-text">
+                            info@ipsum228.com
+                        </span>
+                    </a>
+                </div>
+                <div class="social-item">
+                    <a href="vk.com" class="socials-link">
+                        <img src="./images/icons/social/vk.svg" alt="" class="socials-img"/>
+                        <span class="socials-text">
+                            Мы вконтакте
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+<dialog class="mobile-overlay visible-mobile" id="mobileOverlay">
+    <form class="mobile-overlay__close-button-wrapper" method="dialog">
+        <button class="mobile-overlay__close-button cross-button" type="submit">
+            <span class="visually-hidden">Close navigation menu</span>
+        </button>
+    </form>
+    <div class="mobile-overlay__body">
+        <ul class="mobile-overlay-list">
+            <li class="mobile-overlay__item">
+                <a href="" class="menu-overlay-link">Бизнес</a>
+            </li>
+            <li class="mobile-overlay__item">
+                <a href="" class="menu-overlay-link">О нас</a>
+            </li>
+            <li class="mobile-overlay__item">
+                <a href="" class="menu-overlay-link">Цены</a>
+            </li>
+            <li class="mobile-overlay__item">
+                <a href="" class="menu-overlay-link">Оформить заказ</a>
+            </li>
+        </ul>
+    </div>
+</dialog>
+
+<script src="./scripts/scripts.js" async></script>
+</body>
+</html>
