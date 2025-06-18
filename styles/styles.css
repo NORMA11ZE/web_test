@@ -290,14 +290,14 @@ h4 {
 }
 
 .background {
-    background-image: url(./images/bg_img_1.jpg);
+    background-image: url(.web_test/images/bg_img_1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .background:last-child {
-    background-image: url(./images/bg_img_2.jpg);
+    background-image: url(.web_test/images/bg_img_2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
